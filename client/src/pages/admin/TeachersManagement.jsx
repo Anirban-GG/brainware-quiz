@@ -24,7 +24,7 @@ export default function TeachersManagement() {
     firstName: '',
     lastName: '',
     email: '',
-    initialPassword: 'Teacher@2024'
+    initialPassword: ''
   });
   const [createSubmitting, setCreateSubmitting] = useState(false);
   const [createError, setCreateError] = useState('');

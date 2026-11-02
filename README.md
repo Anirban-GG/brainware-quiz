@@ -269,3 +269,13 @@ The platform has been validated against all academic examination requirements:
 - **Examination Security:** Questions and options shuffle dynamically while protecting questions marked with "Fixed Option Order". Correct answers are never sent to the client during an exam.
 - **Timer Enforcement:** Server validates duration, auto-submits on time expiry, and locks attempts post-submission.
 - **Live Proctored Surveillance:** Real-time Socket.IO transmissions of tab-switching, copy/paste blocks, and faculty warning/termination commands.
+
+## Demo Login
+
+To create local demo accounts, configure these variables in `server/.env`:
+
+- `SEED_ADMIN_PASSWORD`
+- `SEED_TEACHER_PASSWORD`
+- `SEED_STUDENT_PASSWORD`
+
+Use your own local demo credentials. Never publish real student information or production passwords.
